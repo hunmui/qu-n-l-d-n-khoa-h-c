@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Mood</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.container{
+			width:1000px;
+			margin:0 auto;
+			background-color: #08E7FB;
+		}
+	</style>
+</head>
+<body>
+		<article class="container">
+			<header style="text-align:center">
+				<img style="width:500px;height:300px" src="pictures/happy.jpg" alt="mat anh">
+				<h1 style="font-size:40px">Happy Mood</h1>
+				<hr>
+			</header>
+			<section>
+				<h1 >Current courses</h1>
+				<ul>
+					<li>CSE 451 - HTML (<a href="https://www.w3schools.com/html/default.asp">link</a>)</li>
+					<li>CSE 543 - Math</li>
+					<li>CSE 122 - Research</li>
+				</ul>
+			</section>
+			<section>
+				<h1 >Hobies</h1>
+				<ol>
+					<li>Games</li>
+					<li>Music</li>
+					<li>Movie</li>
+					<li>comic</li>
+				</ol>
+			</section>
+			<section>
+				<h1 >Courses</h1>
+				<table border="1" cellspacing="0">
+					<tr>
+						<th>course number </th>
+						<th>course title</th>
+						<th>semester taken</th>
+					</tr>
+					<tr><th colspan="3"><b>for credit</b></th>
+					</tr>
+					<tr>
+						<td>6.1223</td>
+						<td>Operating system</td>
+						<td>spring 2019</td>
+					</tr>
+					<tr>
+						<td>5.9480</td>
+						<td>Artifical intelligence</td>
+						<td>fall 2019</td>
+					</tr>
+					<tr>
+						<td>7.0879</td>
+						<td>Data mining</td>
+						<td>fall 2019</td>
+					</tr>
+					<tr>
+						<th colspan="3">For listener</th>
+					</tr>
+					<tr>
+						<td>8.0383</td>
+						<td>Database</td>
+						<td>fall 2019</td>
+					</tr>
+					<tr>
+						<td>6.0393</td>
+						<td>java programming</td>
+						<td>spring 2019</td>
+					</tr>
+				</table>
+				<br>
+				<br>
+			</section>
+			<section>
+				<form>
+				<h1 >Submit information</h1>
+				<table>
+					<tr>
+						<td><label for="txtfn">Full name: </label></td>
+						<td><input type="text" name="fn" id="txtfn"></td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>
+							<label for="rdum">male: </label>
+							<input type="radio" name="gen" id="rdom">
+							<label for="rdofm">Female</label>
+							<input type="radio" name="gen" id="rdofm">
+						</td>
+					</tr>
+					<tr>
+						<td>Hobies: </td>
+						<td>
+							<label for="kk">Music</label>
+							<input type="checkbox" name="music" id="kk"><br>
+							<label for "kkk">Games</label>
+							<input type="checkbox" name="game" id="kkk">
+							<br>
+							<label for="kkkk">Movies</label>
+							<input type="checkbox" name="movies" id="kkkk">
+						</td>
+					</tr>
+					<tr>
+						<td for="hung">Date of birth</td>
+						<td>
+							<input type="date" name="birth" id="hung">
+						</td>
+					</tr>
+					<tr>
+						<td for="duc">Country: </td>
+						<td>
+							<select name="country" id="duc">
+								<option value="1">Vietnam</option>
+								<option value="2">USA</option>
+								<option value="3">Thailand</option>
+								<option value="4">Singapore</option>
+								<option value="5">India</option>
+								<option value="6">China</option>
+								<option value="7">England</option>
+								<option value="8">korea</option>
+
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td for="nguyen">Picture: </td>
+						<td>
+							<input type="file" name="picture" id="nguyen">
+						</td>
+					</tr>
+					<tr>
+						<td for="le">Email: </td>
+						<td>
+							<input type="Email" name="email" id="le">
+						</td>
+					</tr>
+					<tr>
+						<td for="hoang">password: </td>
+						<td>
+							<input type="password" name="pass" id="hoang">
+						</td>
+					</tr>
+					<tr>
+						<td for="son">Favorite words: </td>
+						<td>
+							<textarea id="son" cols="30" rows="3"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="submit">
+							<input type="reset" name="reset">
+						</td>
+					</tr>
+				</table>
+			</form>
+			</section>
+			<section>
+				<a style="color:red" href="../code web/test.html">Back</a>
+				<br>
+			</section>
+		</article>
+
+</body>
+</html>

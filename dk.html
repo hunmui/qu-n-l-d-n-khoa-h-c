@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt5</title>
+    <script src="javascript/bt5.js"> </script>
+</head>
+<body>
+    <table align="center">
+        <form action="abc.jsp" name="frmAccout">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td>FullName: </td>
+                <td><input type="text" name="fullname"/></td>
+            </tr>
+            <tr>
+                <td>Age: </td>
+                <td><input type="text" name="age"/></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td>
+                    <input type="radio" name="gender"/>Male
+                    <input type="radio" name="gender"/>Female
+                </td>
+            </tr>
+            <tr>
+                <td>Phone: </td>
+                <td><input type="text" name="phone"/></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" name="email"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="submit" onclick="validform(document.forms.frmAccout);">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

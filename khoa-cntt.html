@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>khoa cntt</title>
+	<link rel="stylesheet"type="text/css" href="css/thanh_dh.css">
+	<style>
+			
+		}
+		h1{
+			float:left;
+			padding:10px;
+			
+		}
+		
+		.img{
+			width:100px ;
+			height:100px;
+			float:left;
+			margin-top:35px;
+			margin-right:10px;
+		}
+		.head{
+			width: 1100px;
+			margin:0 auto;
+		}
+		
+		.utc{
+			width:100%;
+			height:400px;
+			
+		}
+		.cot{
+			float:left;
+			width:30%;
+			padding-right: 5px;
+			margin-left:35px;
+			color:white;
+		}
+		.row:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		.cot1{
+			float:left;
+			width:60%;
+			padding-right: 5px;
+			margin-left:35px;
+			overflow: auto;
+			
+		}
+		.cot3{
+			float:left;
+			width:20%;
+			padding-right: 20px;
+			padding-left:55px;
+			margin-left: 100px;
+			color:white;
+		}
+		.cot2{
+			float:left;
+			width:30%;
+			padding-right: 5px;
+			margin-left:35px;
+			
+		}
+		.color{
+			background-color:#216658;
+			margin-bottom:0 auto;
+		}
+		
+		.k3{
+			width:250px;
+			height:150px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+			margin-left:20px;
+		}
+		.img3{
+			width:100%;
+			height:100%;
+			cursor:pointer;
+			transition: 1s;
+		}
+		.k4{
+			width:100px;
+			height:100px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+		}
+		.img4{
+			width:100% ;
+			height:100%;
+			cursor: pointer;
+			transition: 1s;
+			
+		}
+		.list{
+			list-style-type: none;
+			padding-left: 0;
+
+		}
+		.kkk{
+			border-left:5px solid #00BDAD;
+			color:black;
+			background-color:#E1E3E3;
+		}
+		
+		.k5{
+			width:170px;
+			height:100px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+			float:left;
+		}
+		.anh{
+			width:100%;
+			height:100%;
+			cursor:pointer;
+			transition: 1s;
+		}
+		.tt{
+			float:right;
+			margin:0;
+		}
+		.tràn{
+			overflow:auto;
+		}
+		.zoom:hover{
+			transform: scale(2);
+			transition: 1s;
+
+		}
+		.may{
+			font-size:20px;
+			margin-top:70px;
+		}
+		[class*="col-"]{
+            width:100%;
+        }
+        /*taplitte*/
+        @media only screen and (min-width:600px) {
+            .col-s-1 {width:8.33%;}
+            .col-s-2 {width:16.66%;}
+            .col-s-3 {width:25%;}
+            .col-s-4 {width:33.33%;}
+            .col-s-5 {width:41.66%;}
+            .col-s-6 {width:50%;}
+            .col-s-7 {width:58.33%;}
+            .col-s-8 {width:66.66%;}
+            .col-s-9 {width:75%;}
+            .col-s-10 {width:83.33%;}
+            .col-s-11 {width:91.66%;}
+            .col-s-12 {width:100%;}
+            
+        }
+        /*for desktop*/
+         @media only screen and (min-width:768px) {
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width:33.33%;}
+            .col-5 {width:41.66%;}
+            .col-6 {width:50%;}
+            .col-7 {width:58.33%;}
+            .col-8 {width:66.66%;}
+            .col-9 {width:75%;}
+            .col-10 {width:83.33%;}
+            .col-11 {width:91.66%;}
+            .col-12 {width:100%;}
+            
+		}
+		*{
+			box-sizing: border-box;
+		}
+		[class*="col-"]{
+		            float:left;
+		            padding: 5px;
+		}
+			table ul{
+				float: left;
+				list-style: none;
+				margin: auto;
+				overflow: hidden;
+				padding-left: 30px;
+			}
+
+			table img.table_img{
+				float: left;
+				margin: auto;
+				width: 96px;
+				height: 96px;
+				border: 5px solid #ACA6A6;
+				border-radius: 0.3em;
+			}
+
+			table td{
+				padding: 20px 100px 20px 0;
+				width: 50%;
+				border-bottom: 1px dotted #A4A1A1;
+			}
+
+			table ul a:hover{
+				color: red;
+			}
+	</style>
+</head>
+<body>
+	<header class="head">
+		<img src="pictures/utc.jpg" alt="bieu tuong" class="img" >
+		<br>
+		<h1 > Hệ thống quản lý các dự án khoa học</h1>
+		<p><b>UNIVERSITY OF TRANSPORT AND COMMUNICATIONS</b></p>
+		<input type="submit" name="nap" value="search">
+		<input type="search" name="search" value="search" >
+		
+	</header>
+	<div>
+		<br>
+		<br>
+		<br>
+
+		<div class="cc">
+			<ul class="ul">
+				<li class="li"><a href="ql_detaikhoahoc.html"><span style="font-size:20px">&#127969;</span> Trang chủ</a></li>
+				<li class="dropdown li"><a href="#" class="dropbtn"><span style="font-size:20px">&#128195;</span>Giới thiệu &#8711;</a>
+					<div class="dropdown-content">
+						<a href="gt-chung.html">Giới thiệu chung</a>
+						<a href="gt-giaovien.html">Cán bộ-Giảng viên</a>
+					</div>
+				</li>
+				<li class="li"><a href="giai-thuong.html"><span style="font-size:20px">&#127942;</span>Giải thưởng</a></li>
+				<li class="li"><a href="thong_bao.html"><span style="font-size:20px">&#128226;</span>Thông Báo</a></li>
+				<li class="dropdown li"><a href="#" class="dropbtn"><span style="font-size:20px">&#128203;</span>Dự án thực hiện &#8711;</a>
+					<div class="dropdown-content">
+						<a href="dự-án1.html">Dự án thực hiện năm nay</a>
+						<a href="dự-án2.html">Dự án thực hiện các năm trước</a>
+					</div>
+				</li>
+				<li class="li"><a href="lien_he.html"><span style="font-size:20px">&#128222;</span>Liên hệ</a></li>
+				<li class="li"><a href="đk.html"><span style="font-size:20px">&#9997;</span>Đăng ký thi</a></li>
+			</ul>
+		</div>
+		<div>
+			
+		</div>
+		<div >
+			<img src="pictures/utc5.jpg" alt="utc" class="utc">
+
+		</div>
+		<div class="row">
+			<div class="cot1 col-8 col-s-9">
+				<h1 class="kkk">GIẢNG VIÊN HỖ TRỢ NGHIÊN CỨU KHOA CNTT</h1>
+	<div id="table">
+		<table>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img" >
+					<ul>
+						<li><b>Họ tên: </b>Lại Mạnh Dũng</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+						<li></li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/phamxuantich.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Phạm Xuân Tích</li>
+						<li><b>Năm sinh: </b>1978</li>
+						<li><b>Học hàm: </b>Giáo viên</li>
+						<li><b>Học vị: </b>Thạc sỹ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Hiếu Cường</li>
+						<li><b>Năm sinh: </b>1974</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/nguyenquoctuan.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Quốc Tuấn</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/nguyenviethung.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Việt Hưng</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/nguyenthihonghoa.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Thị Hồng Hoa</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/nguyenthantoan.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Thanh Toàn</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Lương Thái Lê</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Trần Văn Dũng</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Văn Long</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Kim Sao</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Hoàng Văn Thông</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Đỗ Văn Đức</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Tiêu Thị Ngọc Dung</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Trần Vũ Hiếu</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Đinh Công Tùng</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Trần Minh Tân</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/caothiluyen.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Cao Thị Luyên</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="pictures/nguyenducdu.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Nguyễn Đức Dư</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+				<td>
+					<img src="pictures/anh.png" alt="Giảng viên" class="table_img">
+					<ul>
+						<li><b>Họ tên: </b>Phạm Đình Phong</li>
+						<li><b>Năm sinh: </b>1981</li>
+						<li><b>Học hàm: </b>Tiến sĩ</li>
+						<li><b>Học vị: </b>Tiến sĩ</li>
+						<li><b>Khoa:
+						</b>CNTT</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+			</div>
+			<div class="cot2 col-3 col-s-9">
+				<h2 class="kkk">ĐỘI NGŨ NHÀ GIÁO</h2>
+		<a href="gt-giaovien.html">Danh sách GS-PGS</a>
+		<h2 class="kkk">KHOA VIỆN</h2>
+
+		<h3 ><a href="khoa-ct.html">Khoa Công trình</a></h3>
+		<ul>
+		<li>Bộ môn Kết cấu</li>
+		<li>Bộ môn Thủy lực - Thủy văn</li>
+		<li>Bộ môn Tự động hóa Thiết kế cầu đường</li>
+		<li>Bộ môn Công trình giao thông công chính và môi trường</li>
+		<li>Bộ môn Công trình giao thông thành phố và Công trình thủy</li>
+		<li>Bộ môn Cầu hầm</li>
+		<li>Bộ môn Sức bền vật liệu</li>
+		<li>Bộ môn Trắc địa</li>
+		<li>Bộ môn Đường bộ</li>
+		<li>Bộ môn Đường sắt</li>
+		<li>Bộ môn Địa kỹ thuật</li>
+		<li>Bộ môn Đường ôtô và Sân bay</li>
+		<li>Bộ môn Dự án và quản lý dự án</li>
+		</ul>
+
+		<h3><a href="khoa-ck.html">Khoa Cơ khí</a></h3>
+		<ul>
+		<li>Bộ môn Công nghệ giao thông</li>
+		<li>Bộ môn Cơ khí ô tô</li>
+		<li>Bộ môn Đầu máy toa xe</li>
+		<li>Bộ môn Động cơ đốt trong</li>
+		<li>Bộ môn Kỹ thuật máy</li>
+		<li>Bộ môn Kỹ thuật nhiệt</li>
+		<li>Bộ môn Máy xây dựng</li>
+		<li>Bộ môn Thiết kế máy</li>
+		</ul>
+
+		<h3><a href="khoa-vtkt.html">Khoa Vận tải - Kinh tế</a></h3>
+		<ul>
+		<li>Bộ môn Kinh tế vận tải</li>
+		<li>Bộ môn Kinh tế xây dựng</li>
+		<li>Bộ môn Vận tải & kinh tế đường sắt</li>
+		<li>Bộ môn VT đường bộ TP</li>
+		<li>Bộ môn Kinh tế vận tải và du lịch</li>
+		<li>Bộ môn Quản trị kinh doanh</li>
+		<li>Bộ môn Kinh tế bưu chính viễn thông</li>
+		<li>Bộ môn Cơ sở kinh tế và quản lý</li>
+		<li>Bộ môn Quy hoạch và QLGTVT</li>
+		</ul>
+
+		<h3><a href="khoa-ddt.html">Khoa Điện - Điện tử</a></h3>
+		<ul>
+		<li>Bộ môn Kỹ thuật điện tử</li>
+		<li>Bộ môn Kỹ thuật viễn thông</li>
+		<li>Bộ môn Điều khiển học</li>
+		<li>Bộ môn Kỹ thuật thông tin</li>
+		<li>Bộ môn Điều khiển & TĐH GT</li>
+		<li>Bộ môn Kỹ thuật điện</li>
+		</ul>
+
+		<h3><a href="khoa-cntt.html">Khoa Công nghệ thông tin</a></h3>
+		<ul>
+		<li>Bộ môn Khoa học máy tính</li>
+		<li>Bộ môn Công nghệ phần mềm</li>
+		<li>Bộ môn Mạng và HTTT</li>
+		</ul>
+
+		<h3><a href="khoa-khcb.html">Khoa Khoa học cơ bản</a></h3>
+		<ul>
+		<li>Bộ môn Hoá</li>
+		<li>Bộ môn Hình hoạ - Vẽ kĩ thuật</li>
+		<li>Bộ môn Nga văn - Pháp văn</li>
+		<li>Bộ môn Toán Giải Tích</li>
+		<li>Bộ môn Anh văn</li>
+		<li>Bộ môn Cơ lí thuyết</li>
+		<li>Bộ môn Đại số và XSTK</li>
+		<li>Bộ môn Vật lí</li>
+		</ul>
+
+		<h3><a href="khoa-llct.html">Khoa Lý luận chính trị</a></h3>
+		<ul>
+			<li>Bộ môn Những nguyên lý cơ bản của CN Mác-Lênin</li>
+			<li>Bộ môn Tư tưởng HCM</li>
+			<li>Bộ môn Đường lối CM của Đảng CSVN</li>
+		</ul>
+		</div>
+		</div>
+		
+		<div class="row color">
+			<div class="cot col-4 col-s-9">
+				<h1>TRỤ SỞ</h1>
+				<p>Số 3 Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội</p>
+				<a href="lien_he.html">
+					<div class="k3">
+					<img src="pictures/utc4.jpg" alt="truong utc" class="img3 zoom">
+				</div>
+				</a>
+			</div>
+			<div class="cot3 col-3 col-s-9">
+				<h1 >LIÊN HỆ</h1>
+				<ul >
+					<li>Nguyễn Đức Hùng</li>
+					<li>Lê Hoàng Sơn</li>
+					<li>Thái Minh hiệp</li>
+					<p><b>ĐT: 0123456789</b></p>
+					<div class="k4">
+						<img src="pictures/ip12.jpg" alt="phone" class="img4 zoom"  >
+					</div>
+					
+				</ul>
+			</div>
+			<div class="cot col-3 col-s-9">
+				<h1>TÀI TRỢ</h1>
+				<ul>
+					<li>Lại Mạnh Dũng</li>
+					<li>Donalad Trump</li>
+					<li>Bill gates</li>
+					<li>Jeff Bezos</li>
+					<li>Jack Ma</li>
+					<li>Phạm Nhật Vượng</li>
+					<li>KTX-Đại học Giao Thông Vận Tải</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<footer>
+				<br>
+				<br>
+			<p style="margin-top:0;">Bản quyền: Thuộc về đại học GIAO THÔNG VẬN TẢI</p>
+			<p>Gmail: giaothong123@st.utc.edu.vn</p>
+			<br>
+			</footer>
+
+		</div>
+	</div>
+</body>
+
+</html>

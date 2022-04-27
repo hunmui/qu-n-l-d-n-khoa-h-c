@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>quy dinh</title>
+	<link rel="stylesheet"type="text/css" href="css/thanh_dh.css">
+	<style>
+			
+		}
+		h1{
+			float:left;
+			padding:10px;
+			
+		}
+		
+		.img{
+			width:100px ;
+			height:100px;
+			float:left;
+			margin-top:35px;
+			margin-right:10px;
+		}
+		.head{
+			width: 1100px;
+			margin:0 auto;
+		}
+		
+		.utc{
+			width:100%;
+			height:400px;
+			
+		}
+		.cot{
+			float:left;
+			width:30%;
+			padding-right: 5px;
+			margin-left:35px;
+			color:white;
+		}
+		.row:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		.cot1{
+			float:left;
+			width:60%;
+			padding-right: 5px;
+			margin-left:35px;
+			overflow: auto;
+			font-size: 17px
+		}
+		.cot3{
+			float:left;
+			width:20%;
+			padding-right: 20px;
+			padding-left:55px;
+			margin-left: 100px;
+			color:white;
+		}
+		.cot2{
+			float:left;
+			width:30%;
+			padding-right: 5px;
+			margin-left:35px;
+			
+		}
+		.color{
+			background-color:#216658;
+			margin-bottom:0 auto;
+		}
+		
+		.k3{
+			width:250px;
+			height:150px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+			margin-left:20px;
+		}
+		.img3{
+			width:100%;
+			height:100%;
+			cursor:pointer;
+			transition: 1s;
+		}
+		.k4{
+			width:100px;
+			height:100px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+		}
+		.img4{
+			width:100% ;
+			height:100%;
+			cursor: pointer;
+			transition: 1s;
+			
+		}
+		.list{
+			list-style-type: none;
+			padding-left: 0;
+
+		}
+		.kkk{
+			border-left:5px solid #00BDAD;
+			color:black;
+			background-color:#E1E3E3;
+			
+		}
+		
+		.k5{
+			width:170px;
+			height:100px;
+			border: 1px solid black;
+			box-sizing: border-box;
+			overflow:hidden;
+			padding: 0px;
+			float:left;
+		}
+		.anh{
+			width:100%;
+			height:100%;
+			cursor:pointer;
+			transition: 1s;
+		}
+		.tt{
+			float:right;
+			margin:0;
+		}
+		.tràn{
+			overflow:auto;
+		}
+		.zoom:hover{
+			transform: scale(2);
+			transition: 1s;
+
+		}
+		.may{
+			font-size:20px;
+			margin-top:70px;
+		}
+		[class*="col-"]{
+            width:100%;
+        }
+        /*taplitte*/
+        @media only screen and (min-width:600px) {
+            .col-s-1 {width:8.33%;}
+            .col-s-2 {width:16.66%;}
+            .col-s-3 {width:25%;}
+            .col-s-4 {width:33.33%;}
+            .col-s-5 {width:41.66%;}
+            .col-s-6 {width:50%;}
+            .col-s-7 {width:58.33%;}
+            .col-s-8 {width:66.66%;}
+            .col-s-9 {width:75%;}
+            .col-s-10 {width:83.33%;}
+            .col-s-11 {width:91.66%;}
+            .col-s-12 {width:100%;}
+            
+        }
+        /*for desktop*/
+         @media only screen and (min-width:768px) {
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width:33.33%;}
+            .col-5 {width:41.66%;}
+            .col-6 {width:50%;}
+            .col-7 {width:58.33%;}
+            .col-8 {width:66.66%;}
+            .col-9 {width:75%;}
+            .col-10 {width:83.33%;}
+            .col-11 {width:91.66%;}
+            .col-12 {width:100%;}
+            
+		}
+		*{
+			box-sizing: border-box;
+		}
+		[class*="col-"]{
+		            float:left;
+		            padding: 10px;
+		}
+		.benphai{
+			float: right;
+			font-size: 25px;
+
+		}
+		.bentrai{
+			float: left;
+			font-size: 25px;
+		
+		}
+		.tieude3{
+			text-align:center;
+			margin-top: 160px;
+			font-size: 23px
+		}
+		.tieude4{
+			text-align: center;
+			font-size: 20px;
+			margin-top:0;
+			margin-bottom:0; 
+		}
+		.le{
+			text-indent: 40px;
+			float:left;
+			clear:both;
+
+		}
+		.son{
+			float:right;
+			font-size:19px 
+		}
+	</style>
+</head>
+<body>
+	<header class="head">
+		<img src="pictures/utc.jpg" alt="bieu tuong" class="img" >
+		<br>
+		<h1 > Hệ thống quản lý các dự án khoa học</h1>
+		<p><b>UNIVERSITY OF TRANSPORT AND COMMUNICATIONS</b></p>
+		<input type="submit" name="nap" value="search">
+		<input type="search" name="search" value="search" >
+		
+	</header>
+	<div>
+		<br>
+		<br>
+		<br>
+
+		<div class="cc">
+			<ul class="ul">
+				<li class="li"><a href="ql_detaikhoahoc.html"><span style="font-size:20px">&#127969;</span> Trang chủ</a></li>
+				<li class="dropdown li"><a href="#" class="dropbtn"><span style="font-size:20px">&#128195;</span>Giới thiệu &#8711;</a>
+					<div class="dropdown-content">
+						<a href="gt-chung.html">Giới thiệu chung</a>
+						<a href="gt-giaovien.html">Cán bộ-Giảng viên</a>
+					</div>
+				</li>
+				<li class="li"><a href="giai-thuong.html"><span style="font-size:20px">&#127942;</span>Giải thưởng</a></li>
+				<li class="li"><a href="thong_bao.html"><span style="font-size:20px">&#128226;</span>Thông Báo</a></li>
+				<li class="dropdown li"><a href="#" class="dropbtn"><span style="font-size:20px">&#128203;</span>Dự án thực hiện &#8711;</a>
+					<div class="dropdown-content">
+						<a href="dự-án1.html">Dự án thực hiện năm nay</a>
+						<a href="dự-án2.html">Dự án thực hiện các năm trước</a>
+					</div>
+				</li>
+				<li class="li"><a href="lien_he.html"><span style="font-size:20px">&#128222;</span>Liên hệ</a></li>
+				<li class="li"><a href="đk.html"><span style="font-size:20px">&#9997;</span>Đăng ký thi</a></li>
+			</ul>
+		</div>
+		<div>
+			
+		</div>
+		<div >
+			<img src="pictures/utc5.jpg" alt="utc" class="utc">
+
+		</div>
+		<div class="row">
+			<div class="cot1 col-7 col-s-9">
+				<h1 class="kkk ">NHỮNG QUY ĐỊNH VỀ HOẠT ĐỘNG NGHIÊN CỨU KHOA HỌC CỦA TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI </h1>
+				<h3 class="le col-6 col-s-6">BỘ GIÁO DỤC VÀ ĐÀO TẠO<br>TRƯỜNG ĐH GIAO THÔNG VẬN TẢI</h3>
+				<pre><h3 class="son col-6 col-s-6">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM <br>    Độc lập - Tự do - Hạnh phúc</h3></pre>
+				
+			<h3 class="tieude4 col-12 col-s-12">QUY ĐỊNH VỀ HOẠT ĐỘNG NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI</h3>	
+			<p class="tieude4 col-12 col-s-12">(Kèm theo Quyết định số 1265  ngày 06  tháng  6  năm 2014)</p>
+			
+			<p class="tieude4"><b>Chương I</b></p>
+			<p class="tieude4"><b>QUY ĐỊNH CHUNG</b></p>
+			<p><b>Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng</b></p>
+				<ol>
+					<li>Văn bản này quy định về hoạt động nghiên cứu khoa học (NCKH) của sinh viên Trường đại học Giao thông Vận tải (sau đây gọi tắt là Trường), bao gồm: xây dựng và thực hiện kế hoạch hoạt động NCKH của sinh viên; quản lý hoạt động NCKH của sinh viên; trách nhiệm và quyền của sinh viên tham gia NCKH, người hướng dẫn và các đơn vị liên quan.</li>
+					<li>Đối tượng áp dụng: các tập thể và cá nhân thuộc Trường đại học Giao thông Vận tải.</li>
+				</ol>
+			<p><b>Điều 2.  Mục tiêu hoạt động NCKH của sinh viên</b></p>
+				<ol>
+					<li>Góp phần nâng cao chất lượng đào tạo nguồn nhân lực trình độ cao, phát hiện và bồi dưỡng nhân tài cho đất nước.</li>
+					<li>Phát huy tính năng động, sáng tạo, khả năng NCKH độc lập của sinh viên, hình thành năng lực tự học cho sinh viên.</li>
+					<li>Góp phần tạo ra tri thức, sản phẩm mới cho xã hội.</li>
+				</ol>
+			<p><b>Điều 3.  Yêu cầu về hoạt động NCKH của sinh viên</b></p>
+				<ol>
+					<li>Phù hợp với khả năng và nguyện vọng của sinh viên.</li>
+					<li>Phù hợp với mục tiêu, nội dung, chương trình đào tạo của Trường.</li>
+					<li>Phù hợp với định hướng hoạt động khoa học và công nghệ của Trường.</li>
+					<li>Kết quả nghiên cứu có giá trị khoa học và thực tiễn.</li>
+				</ol>
+			<p><b>Điều 4. Nội dung hoạt động NCKH của sinh viên</b></p>
+				<ol>
+					<li>Nghiên cứu các đề tài khoa học thuộc lĩnh vực chuyên môn được đào tạo và các lĩnh vực khoa học khác. </li>
+					<li>Tham gia các hội nghị, hội thảo khoa học, sinh hoạt học thuật, hội thi sáng tạo khoa học và công nghệ, câu lạc bộ khoa học sinh viên, các giải thưởng khoa học và công nghệ ở trong, ngoài nước và các hình thức hoạt động khoa học và công nghệ khác của sinh viên.</li>
+					<li>Tham gia triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn trong các lĩnh vực kinh tế - xã hội, giáo dục và đào tạo, an ninh, quốc phòng.</li>
+				</ol>
+			<p><b>Điều 5. Nguồn kinh phí hỗ trợ cho hoạt động NCKH của sinh viên</b></p>
+			<p>Nguồn kinh phí hỗ trợ cho hoạt động NCKH của sinh viên gồm:</p>
+				<ol>
+					<li>Ngân sách nhà nước.</li>
+					<li>Trích từ nguồn thu hợp pháp của Trường.</li>
+					<li>Huy động từ các nguồn hợp pháp khác.</li>
+					<li>Tài trợ, viện trợ của các tổ chức, cá nhân trong và ngoài nước.</li>
+				</ol>
+			<p class="tieude4"><b>Chương II</b></p>
+			<p class="tieude4"><b>XÂY DỰNG VÀ TỔ CHỨC THỰC HIỆN KÊ HOẠCH</b></p>
+			<p class="tieude4"><b>HOẠT ĐỘNG NGHIÊN CƯU KHOA HỌC CỦA SINH VIÊN</b></p>
+			<p><b>Điều 6. Nội dung kế hoạch hoạt động NCKH của sinh viên</b></p>
+			<p>Hàng năm, Trường Đại học Giao thông Vận tải xây dựng kế hoạch hoạt động NCKH của sinh viên trên cơ sở định hướng phát triển khoa học và công nghệ của Trường. </p>
+			<p>Kế hoạch hoạt động NCKH của sinh viên bao gồm: </p>
+				<ol>
+					<li>Xác định danh mục đề tài, giao đề tài, triển khai thực hiện đề tài. </li>
+					<li>Tổ chức hội nghị NCKH của sinh viên và các hình thức hoạt động khoa học và công nghệ khác của sinh viên.</li>
+					<li>Đề xuất và gửi hồ sơ tham dự Giải thưởng “Tài năng khoa học trẻ Việt Nam” dành cho sinh viên.          </li>
+					<li>Tổ chức triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn trong các lĩnh vực kinh tế - xã hội, giáo dục và đào tạo, an ninh, quốc phòng.</li>
+					<li>Tổ chức hoạt động thông tin về kết quả hoạt động khoa học và công nghệ của sinh viên. </li>
+					<li>Tổ chức thực hiện các hoạt độngNCKH khác của sinh viên.</li>
+				</ol>
+			<p><b>Điều 7. Xác định danh mục đề tài, giao đề tài và triển khai thực hiện đề tài NCKH của sinh viên</b></p>
+			<p>1. Xác định danh mục đề tài </p>
+			<p>a) Đề xuất đề tài NCKH: Trong tuần đầu tháng 8 hàng năm Nhà trường ra thông báo về việc đăng ký đề tài NCKH của sinh viên. Các Khoa, Viện, Cơ sở II và bộ môn có trách nhiệm thông báo cho sinh viên thực hiện đăng ký đề tài. </p>
+			<p>Các bộ môn tổ chức cho sinh viên đăng ký đề tài NCKH và dự kiến người hướng dẫn, lập danh mục đề tài (mẫu 7- Phụ lục) gửi Khoa, Viện, Cơ sở II. Khoa, Viện, Cơ sở II tổ chức xét duyệt, tổng hợp danh mục đề tài NCKH của sinh viên và gửi Phòng KHCN trước ngày 10/9 hàng năm.</p>
+			<p>Mỗi đề tài NCKH của sinh viên do một người hướng dẫn.</p>
+			<p>Số sinh viên tham gia thực hiện một đề tài không quá năm người, trong đó phải xác định một sinh viên chịu trách nhiệm chính.</p>
+			<p>b) Phòng KHCN tập hợp danh mục đề tài NCKH của sinh viên toàn trường, trình Thường trực Hội đồng Khoa học- Đào tạo trường xét duyệt.</p>
+			<p>c) Trên cơ sở kết quả xét duyệt của Thường trực Hội đồng Khoa học- Đào tạo trường, Hiệu trưởng ra quyết định giao nhiệm vụ cho sinh viên thực hiện và người hướng dẫn trước ngày 30/9 hàng năm.</p>
+			<p>2. Giao đề tài </p>
+			<p>Sau khi có quyết định phê duyệt danh mục đề tài NCKH của sinh viên, các Khoa, Viện, Cơ sở II tổ chức giao đề tài cho sinh viên thực hiện và người hướng dẫn. </p>
+			<p>Các bộ môn và người hướng dẫn giúp sinh viên xây dựng đề cương nghiên cứu, tổ chức xét duyệt đề cương nghiên cứu.</p>
+			<p>	3. Triển khai thực hiện đề tài </p>
+			<p>Sinh viên triển khai thực hiện đề tài theo đề cương đã được duyệt. </p>
+			<p>Kết quả thực hiện đề tài NCKH của sinh viên được trình bày trong báo cáo tổng kết đề tài (theo mẫu 1, 2, 5 và 6 Phụ lục).</p>
+			<p><b>Điều 8. Tổ chức hội nghị NCKH của sinh viên   </b></p>
+			<p>1. Trình tự tổ chức Hội nghị</p>
+			<p>Trường đại học Giao thông Vận tải tổ chức hội nghị NCKH của sinh viên thành 02 phiên: phiên các tiểu ban và phiên toàn thể.</p>
+			<p>a) Hội nghị NCKH của sinh viên, phiên tiểu ban</p>
+			<p>Việc tổ chức đánh giá các đề tài NCKH của sinh viên được thực hiện tại các tiểu ban.</p>
+			<p>Thành phần hội đồng nghiệm thu đề tài NCKH của sinh viên tại các tiểu ban do các Khoa, Viện, Cơ sở II dự kiến, Phòng KHCN thẩm định trình Hiệu trưởng ra quyết định thành lập.</p>
+			<p>Các Khoa, Viện, Cơ sở II chủ động tổ chức nghiệm thu, đánh giá các đề tài NCKH của sinh viên tại các tiểu ban thuộc đơn vị mình.</p>
+			<p>Trước khi nghiệm thu, đánh giá đề tài NCKH của sinh viên ở các tiểu ban, các bộ môn rà soát, tập hợp các đề tài NCKH của sinh viên, sau đó nộp toàn văn báo cáo tổng kết của các đề tài thuộc bộ môn mình về Khoa, Viện, Cơ sở II trong thời gian quy định.</p>
+			<p>Các hội đồng nghiệm thu, đánh giá ở các tiểu ban phân công đọc duyệt và tổ chức nghiệm thu, đánh giá theo quy định.</p>
+			<p>Căn cứ kết quả đánh giá của các tiểu ban, Khoa/Viện/Cơ sở II xét chọn đề tài NCKH sinh viên tiêu biểu chuyển Phòng KHCN. Phòng KHCN trình Ban Tổ chức Hội nghị NCKH sinh viên xét chọn đề tài được trình bày tại phiên toàn thể.</p>
+			<p>b) Phiên toàn thể: Tổng kết hoạt động NCKH của sinh viên trong năm học; báo cáo một số đề tài tiêu biểu; xét thưởng, công bố kết quả và trao thưởng các đề tài đạt giải thưởng sinh viên NCKH. </p>
+			<p>c) Khoa, Viện, Cơ sở II tập hợp kết quả đánh giá của các tiểu ban nộp cho phòng KHCN trong thời gian quy định.</p>
+			<p>2. Thời gian tổ chức Hội nghị</p>
+			<p>Hội nghị NCKH của sinh viên được tổ chức trước ngày 15 tháng 6 hàng năm.    </p>
+			<p>3. Nội dung đánh giá đề tài</p>
+			<p>Các tiểu ban đánh giá đề tài NCKH của sinh viên theo các nội dung:</p>
+			<p>a) Tổng quan tình hình nghiên cứu, lý do chọn đề tài.</p>
+			<p>b) Mục tiêu đề tài.</p>
+			<p>c) Phương pháp nghiên cứu.</p>
+			<p>d) Nội dung khoa học.</p>
+			<p>đ) Đóng góp về mặt kinh tế - xã hội, giáo dục và đào tạo, an ninh, quốc phòng. </p>
+			<p>e) Hình thức trình bày báo cáo tổng kết đề tài.</p>
+			<p>g) Điểm thưởng (có công bố khoa học từ kết quả nghiên cứu của đề tài trên các tạp chí chuyên ngành trong và ngoài nước).</p>
+			<p>4. Xếp loại đánh giá đề tài</p>
+			<p>a) Các tiểu ban đánh giá đề tài NCKH của sinh viên cho điểm xếp loại đề tài theo 5 mức: xuất sắc, tốt, khá, đạt và không đạt.  </p>
+			<p>b) Các thành viên tiểu ban đánh giá độc lập bằng cách cho điểm theo từng nội dung của phiếu đánh giá (mẫu 3 - Phụ lục). Căn cứ vào điểm trung bình cuối cùng (theo thang 100 điểm) của các thành viên tiểu ban có mặt, đề tài được xếp loại ở mức xuất sắc: từ 90 điểm trở lên; mức tốt: từ 80 điểm đến dưới 90 điểm; mức khá: từ 70 điểm đến dưới 80 điểm; mức đạt: từ 50 điểm đến dưới 70 điểm và  không đạt: dưới 50 điểm.</p>
+			<p>c) Kết quả xếp loại được ghi trong biên bản họp của tiểu ban (mẫu 4 - Phụ lục). </p>
+			<p><b>	Điều 9. Tham dự Giải thưởng “Tài năng khoa học trẻ Việt Nam” dành cho sinh viên </b></p>
+			<p>	1. Hàng năm, căn cứ vào số lượng các công trình NCKH của sinh viên mà Bộ Giáo dục và Đào tạo cho phép tham gia Giải thưởng “Tài năng khoa học trẻ Việt Nam”, Nhà trường tổ chức xét duyệt lựa chọn các đề tài xuất sắc gửi tham dự Giải thưởng.</p>
+			<p>2. Thời gian gửi hồ sơ tham gia xét Giải thưởng “Tài năng khoa học trẻ Việt Nam” dành cho sinh viên: trước ngày 30 tháng 6 hàng năm.</p>
+			<p>3. Đề tài NCKH của sinh viên tham gia xét Giải thưởng “Tài năng khoa học trẻ Việt Nam” được đánh giá và xét giải theo Thể lệ Giải thưởng “Tài năng khoa học trẻ Việt Nam” dành cho sinh viên của Bộ Giáo dục và Đào tạo. </p>
+			<p><b>Điều 10. Tổ chức triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn</b></p>
+			<p>	1. Nhà trường tạo điều kiện cho sinh viên triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn từ kết quả của các đề tài NCKH của sinh viên được đánh giá xếp loại xuất sắc.</p>
+			<p>2. Chủ nhiệm đề tài khoa học và công nghệ các cấp tạo điều kiện cho sinh viên tham gia thực hiện đề tài và triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn.</p>
+			<p><b>Điều 11. Tổ chức hoạt động thông tin về kết quả hoạt động khoa học và công nghệ của sinh viên</b></p>
+			<p>          Nhà trường tổ chức hoạt động thu thập, xử lý, lưu giữ, phổ biến thông tin khoa học và công nghệ của sinh viên, bao gồm: </p>
+			<p>1. Căn cứ vào kết quả Hội nghị NCKH của sinh viên, Nhà trường xuất bản Kỷ yếu NCKH của sinh viên bao gồm các đề tài đạt giải nhất cấp trường tại các tiểu ban. </p>
+			<p>2. Người hướng dẫn đề tài đạt giải nhất tại các tiểu ban hướng dẫn sinh viên tổng hợp kết quả nghiên cứu của đề tài dưới dạng một bài báo khoa học (tối đa 05 trang giấy khổ A4) và nộp về Khoa, Viện, Cơ sở II trong thời gian quy định. Khoa, Viện, Cơ sở II tập hợp và gửi các bài báo này về phòng KHCN trong thời hạn 03 tuần làm việc tính từ khi Hội nghị NCKH sinh viên phiên toàn thể kết thúc.</p>
+			<p>          3. Kỷ yếu NCKH sinh viên được đăng tải trên trang thông tin điện tử của Nhà trường và quản lý, lưu giữ tại Trung tâm Thông tin- Thư viện của Nhà trường.</p>
+			<p><b>Điều 12. Tổ chức thực hiện các hoạt động NCKH khác của sinh viên </b></p>
+			<p>1. Tham gia các hội nghị, hội thảo, sinh hoạt học thuật</p>
+			<p>a. Ngoài Hội nghị NCKH của sinh viên được Nhà trường tổ chức hàng năm, Nhà trường và các đơn vị trong trường có thể tổ chức các hội nghị, hội thảo, sinh hoạt học thuật khác có sự tham gia của sinh viên. Việc đăng ký, tổ chức thực hiện các hội nghị, hội thảo, sinh hoạt học thuật theo quy định hiện hành.</p>
+			<p>b. Sinh viên được quyền tham gia các hội nghị, hội thảo, sinh hoạt học thuật do các đơn vị ngoài trường tổ chức. Trường hợp cần sự hỗ trợ của Nhà trường, sinh viên có thể đề xuất với Phòng KHCN thông qua giảng viên hướng dẫn, cố vấn học tập, bộ môn, khoa, viện hoặc Đoàn Thanh niên.</p>
+			<p>2. Tham gia các hội thi sáng tạo khoa học công nghệ, các giải thưởng khoa học và công nghệ ở trong và ngoài nước và các hoạt động khoa học công nghệ khác</p>
+			<p>a. Khi có thông báo của các tổ chức kinh tế xã hội ở trong và ngoài nước về các hội thi sáng tạo khoa học công nghệ, các giải thưởng khoa học và công nghệ và các hoạt động khoa học công nghệ khác đến Nhà trường, Phòng KHCN thông báo tới các Khoa, Viện, Cơ sở II. Các Khoa, Viện, Cơ sở II triển khai đến các bộ môn để hướng dẫn sinh viên đăng ký tham gia theo quy định.</p>
+			<p>Trường hợp thông tin về các hoạt động trên trực tiếp đến các Khoa, Viện, Cơ sở II thì các đơn vị này chủ động triển khai tham gia và báo cáo với Nhà trường thông qua Phòng KHCN. </p>
+			<p>b. Trong thời gian quy định, các bộ môn nộp bản đăng ký cho Khoa, Viện, Cơ sở II để tổ chức xét duyệt. Sau khi xét duyệt, các Khoa, Viện, Cơ sở II nộp các bản đăng ký tham gia cho Phòng KHCN để trình Hiệu trưởng phê duyệt.</p>
+			<p>c. Sau khi được Hiệu trưởng phê duyệt, các đơn vị chủ động triển khai thực hiện. Phòng KHCN có trách nhiệm theo dõi, giám sát về nội dung. Trong trường hợp phát sinh vướng mắc hoặc cần sự hỗ trợ, Phòng KHCN tổng hợp báo cáo Hiệu trưởng.</p>
+			<p>3. Câu lạc bộ khoa học của sinh viên </p>
+			<p>Câu lạc bộ khoa học sinh viên có thể được thành lập theo quy định hiện hành. Phòng KHCN theo dõi, giám sát các nội dung hoạt động khoa học và công nghệ của câu lạc bộ.</p>
+			<p class="tieude4"><b>Chương III</b></p>
+			<p class="tieude4"><b>QUẢN LÝ HOẠT ĐỘNG</b></p>
+			<p class="tieude4"><b>NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN</b></p>
+			<p><b>Điều 13. Nội dung quản lý hoạt động NCKH của sinh viên</b></p>
+			<p>1. Xây dựng và tổ chức thực hiện kế hoạch hoạt động NCKH của sinh viên hàng năm.  </p>
+			<p>2. Huy động các nguồn kinh phí cho hoạt động NCKH của sinh viên.</p>
+			<p>3. Khen thưởng, vinh danh các cán bộ, giảng viên và sinh viên có thành tích xuất sắc trong hoạt động NCKH của sinh viên</p>
+			<p>4. Định kỳ tổng kết, đánh giá kết quả hoạt động NCKH của sinh viên; thực hiện chế độ báo cáo định kỳ hàng năm, 5 năm và báo cáo đột xuất về hoạt động NCKH của sinh viên.</p>
+			<p><b>Điều 14. Chức năng, nhiệm vụ của phòng Khoa học Công nghệ về quản lý hoạt động NCKH của sinh viên</b></p>
+			<p>1. Giúp hiệu trưởng chỉ đạo, quản lý hoạt động NCKH của sinh viên. </p>
+			<p>2. Chủ trì, phối hợp với các phòng, ban, các khoa, viện, cơ sở II, các bộ môn, Đoàn Thanh niên Cộng sản Hồ Chí Minh, hội sinh viên và các tổ chức, đoàn thể khác để tổ chức triển khai hoạt động NCKH của sinh viên. </p>
+			<p><b>Điều 15. Nhiệm vụ và quyền hạn của Hiệu trưởng về quản lý hoạt động NCKH của sinh viên</b></p>
+			<p>1. Chỉ đạo, tổ chức thực hiện và đảm bảo các nguồn lực cho hoạt động NCKH của sinh viên theo kế hoạch khoa học và công nghệ của Nhà trường</p>
+			<p>2. Ban hành quy định về hoạt động NCKH của sinh viên Trường Đại học Giao thông Vận tải</p>
+			<p>3. Quy định mức chi cho hoạt động NCKH của sinh viên theo khả năng ngân sách của Trường và quy định tài chính hiện hành của Nhà nước.</p>
+			<p>4. Quy định số giờ NCKH cho người hướng dẫn đề tài NCKH của sinh viên, mức thưởng giờ NCKH đối với đề tài NCKH của sinh viên đạt giải các cấp và các đề tài được triển khai ứng dụng vào thực tiễn.</p>
+			<p>5. Quy định các hình thức khen thưởng đối với cán bộ, giảng viên, sinh viên có thành tích xuất sắc trong hoạt động NCKH của sinh viên.</p>
+			<p>6. Quy định các hình thức xử lý đối với cán bộ, giảng viên, sinh viên vi phạm các quy định về hoạt động NCKH của sinh viên.</p>
+			<p class="tieude4"><b>Chương IV</b></p>
+			<p class="tieude4"><b>TRÁCH NHIỆM, QUYỀN CỦA SINH VIÊN THAM GIA </b></p>
+			<p class="tieude4"><b>NGHIÊN CỨU KHOA HỌC, NGƯỜI HƯỚNG DẪN VÀ CÁC ĐƠN VỊ LIÊN QUAN</b></p>
+			<p><b>Điều 15. Trách nhiệm và quyền của sinh viên tham gia NCKH </b></p>
+			<p>1. Trách nhiệm của sinh viên </p>
+			<p>a) Thực hiện đề tài NCKH và triển khai ứng dụng tiến bộ khoa học và công nghệ vào thực tiễn theo kế hoạch hoạt động khoa học và công nghệ của Trường.</p>
+			<p>b) Tham gia các hội nghị, hội thảo khoa học và các hoạt động khoa học và công nghệ khác trong Trường.</p>
+			<p>c) Trung thực trong NCKH, chấp hành nghiêm chỉnh các quy định hiện hành về hoạt động khoa học và công nghệ.</p>
+			<p>2. Quyền của sinh viên</p>
+			<p>a) Được tham gia thực hiện một đề tài NCKH của sinh viên trong một năm học. </p>
+			<p>b) Được sử dụng các thiết bị sẵn có của Trường để tiến hành NCKH. </p>
+			<p>c) Đề tài của sinh viên đạt giải nhất sẽ được công bố kết quả nghiên cứu trong Kỷ yếu NCKH của sinh viên, trên trang thông tin điện tử và các phương tiện thông tin khác.</p>
+			<p>d) Được bảo hộ quyền sở hữu trí tuệ đối với các kết quả nghiên cứu và công bố khoa học do sinh viên thực hiện theo quy định hiện hành.</p>
+			<p>đ) Được ưu tiên xét cấp học bổng; xét các danh hiệu thi đua và hình thức khen thưởng nếu có thành tích NCKH xuất sắc.</p>
+			<p><b>	Điều 16. Trách nhiệm và quyền của người hướng dẫn sinh viên NCKH </b></p>
+			<p>	1. Người được giao hướng dẫn sinh viên NCKH chịu trách nhiệm về nội dung của đề tài được phân công hướng dẫn. </p>
+			<p>2. Mỗi người được hướng dẫn tối đa hai đề tài NCKH của sinh viên trong cùng thời gian, được tính giờ NCKH sau khi hoàn thành việc hướng dẫn sinh viên NCKH.</p>
+			<p>3. Người hướng dẫn đề tài NCKH của sinh viên được xét các danh hiệu thi đua và hình thức khen thưởng nếu có thành tích hướng dẫn sinh viên thực hiện đề tài NCKH đạt giải các cấp hoặc được triển khai ứng dụng vào thực tiễn.</p>
+			<p><b>Điều 17. Trách nhiệm và quyền các đơn vị khác trong hoạt động NCKH của sinh viên</b></p>
+			<p>1. Đoàn Thanh niên Cộng sản Hồ Chí Minh, Hội sinh viên có trách nhiệm động viên, khuyến khích sinh viên tham gia đăng ký đề tài NCKH; theo dõi, đôn đốc sinh viên thực hiện đề tài NCKH đã được giao.</p>
+			<p>2. Phòng Công tác Chính trị và Sinh viên, Phòng Thiết bị Quản trị, Ban Quản lý giảng đường và các đơn vị liên quan khác có trách nhiệm phối hợp với Phòng KHCN tổ chức Hội nghị NCKH của sinh viên.</p>
+			<p>3. Phòng Công tác Chính trị và Sinh viên có trách nhiệm tổ chức, hướng dẫn xét các danh hiệu thi đua đối với các giảng viên và sinh viên thực hiện đề tài NCKH đạt giải.</p>
+			<p>4. Trung tâm Thông tin- Thư viện có trách nhiệm tổ chức quản lý, lưu giữ Kỷ yếu NCKH của sinh viên.</p>
+			<p><b>	Điều 18. Khen thưởng và xử lý vi phạm</b></p>
+			<p>1. Sinh viên, người hướng dẫn sinh viên NCKH và các cá nhân, tập thể có thành tích xuất sắc trong hoạt động NCKH của sinh viên được khen thưởng các cấp theo quy định hiện hành.</p>
+			<p>2. Cá nhân, tập thể vi phạm các quy định về hoạt động NCKH của sinh viên thì tùy tính chất và mức độ sai phạm sẽ bị xử lý các hình thức kỷ luật khác nhau theo quy định hiện hành.</p>
+			<p class="tieude4"><b>Chương V</b></p>
+			<p class="tieude4"><b>ĐIỀU KHOẢN THI HÀNH</b></p>
+			<p><b>Điều 19. Quy định bổ sung, sửa đổi</b></p>
+			<p>Quy định này có thể được bổ sung, sửa đổi cho phù hợp với quy định của Nhà nước và điều kiện thực tế của Trường.</p>
+			<p><b>Điều 20. Điều khoản thi hành</b></p>
+			<p>1. Quy định này có hiệu lực kể từ ngày ký.</p>
+			<p>2. Những trường hợp đặc biệt ngoài Quy định này do Hiệu trưởng xem xét, quyết định.</p>
+			<pre class="benphai">    HIỆU TRƯỞNG <br><br><br><br>PGS. TS. Trần Đắc Sử</pre>
+			</div>
+			<div class="cot2 col-4 col-s-9">
+				<h1 class="kkk">NHỮNG TIN TỨC MỚI NHẤT</h1>
+				<ul class="list">
+					<li>
+						<div class="k5">
+							<img src="pictures/kh1.jpg" alt="anh1" class="anh zoom">
+						</div>
+					</li>
+					<li class="tt" >
+						<i>Thứ tư, 22 Tháng 7,năm 2020 - 15:38</i>
+					</li>
+					<a href="tt-moi1.html" class="tràn"><b><li >Hội nghị Tổng kết nghiên cứu khoa học của sinh viên, năm học 2019 - 2020</li></b></a>
+				</ul>
+				<br>
+				<hr>
+				<ul class="list">
+					<li>
+						<div class="k5">
+							<img src="pictures/lãm.png" alt="anh2" class="anh zoom">
+						</div>
+					</li>
+					<li class="tt" >
+						<i>Thứ năm, 02/03/2020 - 09:03</i>
+					</li>
+					<a href="tt-moi2.html" class="tràn"><b><li >TRƯỜNG ĐH GTVT TRIỂN LÃM SẢN PHẨM VÀ ĐẠT NHIỀU GIẢI THƯỞNG TẠI VÒNG CHUNG KẾT...</li></b></a>
+					<br>
+				</ul>
+				<hr>
+				<ul class="list">
+					<li>
+						<div class="k5">
+							<img src="pictures/a1.jpg" alt="anh3" class="anh zoom">
+						</div>
+					</li>
+					<li class="tt" >
+						<i>Thứ sáu,21 Tháng 02,năm 2020 - 10:38</i>
+					</li>
+					<a href="tt-moi3.html" class="tràn"><b><li >Bộ môn Hóa học Trường ĐHGTVT chung tay cùng cộng đồng phòng chống dịch Covid-19</li></b></a>
+					<br>
+				</ul>
+			</div>
+			
+		</div>
+		
+		<div class="row color">
+			<div class="cot col-4 col-s-9">
+				<h1>TRỤ SỞ</h1>
+				<p>Số 3 Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội</p>
+				<a href="lien_he.html">
+					<div class="k3">
+					<img src="pictures/utc4.jpg" alt="truong utc" class="img3 zoom">
+				</div>
+				</a>
+			</div>
+			<div class="cot3 col-3 col-s-9">
+				<h1 >LIÊN HỆ</h1>
+				<ul >
+					<li>Nguyễn Đức Hùng</li>
+					<li>Lê Hoàng Sơn</li>
+					<li>Thái Minh hiệp</li>
+					<p><b>ĐT: 0123456789</b></p>
+					<div class="k4">
+						<img src="pictures/ip12.jpg" alt="phone" class="img4 zoom"  >
+					</div>
+					
+				</ul>
+			</div>
+			<div class="cot col-3 col-s-9">
+				<h1>TÀI TRỢ</h1>
+				<ul>
+					<li>Lại Mạnh Dũng</li>
+					<li>Donalad Trump</li>
+					<li>Bill gates</li>
+					<li>Jeff Bezos</li>
+					<li>Jack Ma</li>
+					<li>Phạm Nhật Vượng</li>
+					<li>KTX-Đại học Giao Thông Vận Tải</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<footer>
+				<br>
+				<br>
+			<p style="margin-top:0;">Bản quyền: Thuộc về đại học GIAO THÔNG VẬN TẢI</p>
+			<p>Gmail: giaothong123@st.utc.edu.vn</p>
+			<br>
+			</footer>
+
+		</div>
+	</div>
+</body>
+
+</html>

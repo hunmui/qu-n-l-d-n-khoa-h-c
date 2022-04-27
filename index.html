@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Đăng ký đề tài</title>
+	<link rel="stylesheet"type="text/css" href="css/thanh_dh.css">
+	<style>
+		body{
+			background-color:#07B0CE;
+			
+			background-size:100%;
+			
+		}
+		*{
+			color:black;
+			box-sizing: border-box;
+		}
+		/* for smartphone*/
+        [class*="col-"]{
+            width:100%;
+        }
+
+        /*taplitte*/
+        @media only screen and (min-width:600px) {
+            .col-s-1 {width:8.33%;}
+            .col-s-2 {width:16.66%;}
+            .col-s-3 {width:25%;}
+            .col-s-4 {width:33.33%;}
+            .col-s-5 {width:41.66%;}
+            .col-s-6 {width:50%;}
+            .col-s-7 {width:58.33%;}
+            .col-s-8 {width:66.66%;}
+            .col-s-9 {width:75%;}
+            .col-s-10 {width:83.33%;}
+            .col-s-11 {width:91.66%;}
+            .col-s-12 {width:100%;}
+            
+        }
+        /*for desktop*/
+         @media only screen and (min-width:768px) {
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width:33.33%;}
+            .col-5 {width:41.66%;}
+            .col-6 {width:50%;}
+            .col-7 {width:58.33%;}
+            .col-8 {width:66.66%;}
+            .col-9 {width:75%;}
+            .col-10 {width:83.33%;}
+            .col-11 {width:91.66%;}
+            .col-12 {width:100%;}
+            
+}
+
+		h1{
+			text-align:center;
+			font-size:35px;
+			margin-top:100px;
+		}
+		.main{
+			margin-left:30%;
+			margin-right:30%;
+			margin-top:10px;
+			border-radius: 10px;
+			background-color: white;
+            
+		}
+
+		h2{
+			text-align:center;
+		}
+		pre{
+			float: left;
+			clear:both;
+			font-size:20px;
+		}
+		.in{
+			color:black;
+			font-size:18px;
+			width:70%;
+			height:30px;
+			border-radius:5px;
+			border:1px;
+			border-color:black;
+			margin-bottom: 20px;
+			background-color: #D6D5D5;
+		}
+		.hung{
+			margin-top:40px;
+			text-align: center; 
+		}
+		tr{
+			height:30px;
+		}
+		#sv{
+			width:70%;
+			height:70px;
+			font-size:18px;
+			color:black;
+			border-radius:5px;
+			border:1px;
+			border-color:black;
+			margin-bottom: 10px;
+			background-color: #D6D5D5;
+		}
+		.son{
+			margin-top: 10px;
+			background-color:#0AE4F2;
+		}
+		
+		.son:hover{
+			color:#0AE4F2;
+			background-color:white;
+		}
+		.back{
+			text-decoration: none;
+            font-size:22px;
+		}
+		.may{
+			color:red;
+		}
+		.kk{
+			margin:0px;
+		}
+        pre{
+            font-size:20px;
+        }
+        .dk{
+            ;
+        }
+	</style>
+</head>
+<body>
+	
+	<div>
+		<header>
+		<pre >     BỘ GIÁO DỤC VÀ ĐÀO TẠO
+<b>TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI</b></pre>
+
+	</header>
+		<div>
+			<br>
+            <br>
+			<h1 class="dk">Đăng ký đề tài nghiên cứu khoa học</h1>
+            <br>
+		</div>
+		<div class="main col-5 col-s-5">
+			<h2>-------------------------Đăng ký-------------------------</h2>
+        
+			<p id ="demo" class="may"></p>
+			<form class="hung" action="#" method="post" name="myForm" onsubmit="return my()">
+				<div><input type="text" placeholder="tên đề tài" name="tên đề tài" class="in" id="q"></div>
+				<div><input type="text" placeholder="họ và tên" name="tên" class="in" id="w"></div>
+				<div><input type="text" placeholder="mã sinh viên" name="msv" class="in" id="e"></div>
+				<div><input type="date"  name="date" class="in" id="r"></div>
+				<div><input type="text" placeholder="địa chỉ" name="dc" class="in" id="t"></div>
+				<div><input type="email" placeholder="gmail" name="gmail" class="in" id="y"></div>
+				<div><input type="tel" placeholder="số ĐT" name="đt" class="in" id="u"></div>
+                <div><input type="text" placeholder="Giáo viên hỗ trợ" name="htr" class="in" id="k"></div>
+				<div>
+					<textarea name="thi sinh" id="sv" placeholder="tên các thí sinh khác tham gia-MSV"></textarea>
+				</div>
+				<div class="hiep">
+				<input type="radio" name="t" id="v" value="đồng ý"><label for="t">Tôi đồng ý với với <a href="quy-dinh.html">điều khoản quy định</a></label>
+				</div>
+				<div><input type="button" value="đăng ký" class="in son"></div>
+				<div><input type="Reset" type="reset" value="xóa" class="in kk"></div>
+			</form>
+			<br>
+			<br>
+			<a href="ql_detaikhoahoc.html" class="back">&#8810;   Trở về trang chủ</a>
+			<br>
+			<br>
+			
+		</div>
+		<div>
+			<p><br>
+			<br>
+			<br></p>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
